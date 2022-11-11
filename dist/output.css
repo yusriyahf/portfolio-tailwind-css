@@ -658,6 +658,10 @@ video {
   margin-bottom: 2rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -686,40 +690,16 @@ video {
   height: 2.25rem;
 }
 
-.h-96 {
-  height: 24rem;
+.h-\[440px\] {
+  height: 440px;
 }
 
 .h-32 {
   height: 8rem;
 }
 
-.h-\[450px\] {
-  height: 450px;
-}
-
-.h-\[440px\] {
-  height: 440px;
-}
-
-.h-\[430px\] {
-  height: 430px;
-}
-
-.h-36 {
-  height: 9rem;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-72 {
-  height: 18rem;
-}
-
-.h-20 {
-  height: 5rem;
+.h-60 {
+  height: 15rem;
 }
 
 .w-full {
@@ -728,14 +708,6 @@ video {
 
 .w-9 {
   width: 2.25rem;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-40 {
-  width: 10rem;
 }
 
 .w-96 {
@@ -793,6 +765,14 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.self-center {
+  align-self: center;
 }
 
 .overflow-hidden {
@@ -871,30 +851,6 @@ video {
 .bg-dark {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-auto {
-  background-size: auto;
-}
-
-.bg-contain {
-  background-size: contain;
-}
-
-.bg-fixed {
-  background-attachment: fixed;
-}
-
-.bg-clip-border {
-  background-clip: border-box;
-}
-
-.bg-repeat {
-  background-repeat: repeat;
 }
 
 .fill-current {
@@ -1218,6 +1174,10 @@ body {
 }
 
 @media (min-width: 640px) {
+  .sm\:h-32 {
+    height: 8rem;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
